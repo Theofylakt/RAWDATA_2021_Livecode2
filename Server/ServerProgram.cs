@@ -10,7 +10,7 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            var server = new TcpListener(IPAddress.Loopback, 5000);
+            var server = new TcpListener(IPAddress.Loopback, 5040);
             server.Start();
             Console.WriteLine("Server started");
 

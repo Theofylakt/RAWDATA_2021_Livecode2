@@ -26,7 +26,7 @@ namespace Utillities
 
         public void Connect(string ip, int port)
         {
-            _client.Connect("localhost", 5000);
+            _client.Connect("localhost", 5040);
         }
 
         public void Write(string msg)
